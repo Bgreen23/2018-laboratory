@@ -20,14 +20,12 @@ defmodule Mix.Tasks.Report.Videos do
         )
       )
 
-    IO.puts(" _________________________ ")
     IO.puts("| Category | Upload Total |")
     IO.puts("|__________|______________|")
 
     Enum.each(grid, fn {name, count} ->
       IO.puts("| #{String.pad_trailing(name, 8)} |       #{count}      |")
     end)
-
-    IO.puts("| _________|_____________ |")
+    
   end
 end
