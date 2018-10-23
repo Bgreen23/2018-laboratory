@@ -10,9 +10,7 @@ defmodule Rumbl.Video do
 
     timestamps()
   end
-  # @required_fields ~w(url title description)
-  # @optional_fields ~w()
-
+  
   @doc """
   Builds a changeset based on the `struct` and `params`.
   """
